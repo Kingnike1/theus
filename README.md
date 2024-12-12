@@ -56,7 +56,7 @@ Bem-vindo ao repositório da **Barbearia do Theus**! Este projeto consiste em um
 ## 🌐 Link para Navegação
 
 Acesse a versão online do site clicando no link abaixo:  
-[**Barbearia do Theus - Site Oficial**](https://seulink.com)
+[**Barbearia do Theus - Site Oficial**]([https://seulink.com](https://kingnike1.github.io/theus/))
 
 ---
 
