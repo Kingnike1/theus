@@ -316,3 +316,46 @@ a:hover {
     text-align: center;
     line-height: 1.5;
 }
+
+/* animação para deixar melhor o site de ser mexer*/
+
+/* Animação de Fade In para os elementos */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Classe para aplicar a animação nos elementos */
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  /* Animação de slide no menu lateral */
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-250px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .w3-sidebar {
+    animation: slideIn 0.5s ease-out forwards;
+  }
+  
+  /* Adicionando transições suaves para imagens */
+  img.w3-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img.w3-image:hover {
+    transform: scale(1.05);
+  }
+  
