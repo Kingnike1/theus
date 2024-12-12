@@ -1,0 +1,156 @@
+/* General resets for responsiveness */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    padding: 32px 16px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+header p {
+    font-size: 1.2em;
+    color: white;
+}
+
+header img {
+    width: 100%;
+    max-width: 992px;
+    height: auto;
+}
+
+/* Sidebar navigation (for small screens) */
+@media screen and (max-width: 600px) {
+    .w3-sidebar {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        display: none;
+    }
+
+    .w3-sidebar .w3-bar-item {
+        padding: 16px;
+    }
+
+    .w3-top {
+        display: block;
+    }
+
+    .w3-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .w3-bar a {
+        width: 25%;
+    }
+}
+
+/* Footer and contact links */
+footer {
+    padding: 32px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+/* Photo section */
+img.w3-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsiveness for large screens */
+@media screen and (min-width: 601px) {
+    .w3-sidebar {
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .w3-sidebar .w3-bar-item {
+        padding: 20px;
+    }
+
+    .w3-sidebar img {
+        width: 100%;
+    }
+
+    .w3-top {
+        display: none;
+    }
+
+    .w3-bar {
+        display: none;
+    }
+}
+
+/* Card grid layout */
+.w3-row-padding {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.w3-card-4 {
+    margin: 10px;
+    flex: 1 1 48%;
+    max-width: 48%;
+}
+
+@media screen and (max-width: 768px) {
+    .w3-card-4 {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+/* Make Swiper images responsive */
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Localization map */
+#localizacao iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.w3-padding-64 {
+    padding: 32px;
+}
+
+/* Adjust the padding for smaller screens */
+@media screen and (max-width: 768px) {
+    .w3-padding-64 {
+        padding: 16px;
+    }
+}
