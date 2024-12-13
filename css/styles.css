@@ -6,7 +6,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Verdana", sans-serif;
+    color: #fff;
+
 }
 
 body {
@@ -14,6 +16,8 @@ body {
     background-color: #121212; /* Fundo escuro elegante */
     color: #fff;
 }
+
+
 
 img {
     vertical-align: middle;
